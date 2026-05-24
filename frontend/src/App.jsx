@@ -14,7 +14,8 @@ function App() {
 
   useEffect(() => {
     // Fetch portfolio data from backend
-    fetch('http://localhost:5000/api/portfolio')
+    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000'
+    fetch(`${apiUrl}/api/portfolio`)
       .then(res => res.json())
       .then(data => setPortfolioData(data))
       .catch(err => console.log('Using fallback data:', err))
