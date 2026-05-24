@@ -7,5 +7,3 @@ services:
     envVars:
       - key: PORT
         value: 10000
-      - key: MONGODB_URI
-        value: mongodb+srv://username:password@cluster.mongodb.net/portfolio
