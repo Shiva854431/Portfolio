@@ -1,0 +1,45 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.header {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  color: white;
+}
+
+.title {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+section {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  color: #667eea;
+}
+
+.skills li {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.project-card {
+  background: white;
+  border: 2px solid #667eea;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
