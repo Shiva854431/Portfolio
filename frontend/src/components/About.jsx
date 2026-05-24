@@ -34,7 +34,6 @@ const About = ({ data }) => {
               <div className="education-degree">Bachelor of Technology</div>
               <div className="education-school">RGUKT-Basar (IIIT-Basar)</div>
               <div className="education-details">
-                <span className="education-cgpa">CGPA: 9.5</span>
                 <span className="education-year">Expected 2027</span>
               </div>
             </div>
@@ -42,6 +41,7 @@ const About = ({ data }) => {
               <div className="education-degree">Pre-University Course</div>
               <div className="education-school">RGUKT-Basar</div>
               <div className="education-details">
+                <span className="education-cgpa">CGPA: 9.5</span>
                 <span className="education-year">2021 - 2023</span>
               </div>
             </div>

@@ -31,7 +31,7 @@ function App() {
     location: 'Hyderabad',
     linkedin: 'https://linkedin.com/in/nakkanagoni-shiva',
     github: 'https://github.com/nakkanagoni-shiva',
-    about: `Motivated Computer Science student passionate about building efficient software solutions and contributing to innovative technology teams. Currently pursuing B.Tech at RGUKT-Basar with a CGPA of 9.5.`,
+    about: `Motivated Computer Science student passionate about building efficient software solutions and contributing to innovative technology teams. Currently pursuing B.Tech at RGUKT-Basar. Completed Pre-University Course with a CGPA of 9.5.`,
     skills: [
       { category: 'Languages', items: ['Java', 'C', 'C++', 'Python', 'JavaScript'] },
       { category: 'Frontend', items: ['React.js', 'HTML', 'CSS', 'TailwindCSS'] },
